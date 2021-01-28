@@ -1,4 +1,4 @@
-name: "JD Docker Image Buildx Stable Github V3"
+name: "JD Docker Image Buildx Stable Github V4"
 on:
   workflow_dispatch:
   
@@ -16,6 +16,6 @@ jobs:
           imageName: ohmybobo/jds
           dockerFile: docker/github/Dockerfile
           platform: linux/amd64
-          tag: v3
+          tag: v4
           dockerUser: ${{ secrets.DOCKER_USERNAME }}
           dockerPassword: ${{ secrets.DOCKER_PASSWORD }}
